@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 40%;
+  background-color: #f0f0f0;
+  padding: 5rem;
+  border-radius: 10px;
+}
+
+.email-password,
+.personal-data {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+input,
+button {
+  width: 100%;
+  padding: .5rem;
+  border: none;
+  border-radius: 5px;
+}
+
+
+form button {
+  background-color: black;
+  color: white;
+}
+
+form button:hover {
+  cursor: pointer;
+}
